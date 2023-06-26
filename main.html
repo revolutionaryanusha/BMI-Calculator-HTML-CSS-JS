@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url('Bmi-chart-1.jpg');  background-size: 50%; /* set the width of the background image to 50% */">
+  <div style=" text-align: center; background-color: rgb(238, 227, 227);margin-left: 35%; margin-right: 35%; ;">
+       
+       <P>NAME : ANUSHA ZUABIR  
+       
+        DATE : 21-3-2023 
+       </P>
+    <H6>
+  </div>
+  <div class="calculator" style="background-color: lightsalmon;">
+    <h1>BMI Calculator</h1>
+    <label>Weight:</label>
+    <input type="number" id="weight" placeholder="Enter weight">
+    <select id="weight-unit">
+      <option value="kg">kg</option>
+      <option value="lbs">lbs</option>
+    </select>
+    <br>
+    <label>Height:</label>
+    <input type="number" id="height" placeholder="Enter height">
+    <select id="height-unit">
+      <option value="m">m</option>
+      <option value="in">in</option>
+    </select>
+    <br>
+    <button onclick="calculateBMI()">Calculate BMI</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="bmi.js"></script>
+</body>
+</html>
